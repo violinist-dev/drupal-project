@@ -5,6 +5,17 @@
 This project template provides a starter kit for managing your site
 dependencies with [Composer](https://getcomposer.org/).
 
+It comes bundled with basic CI tests for php compatibility, drupal coding
+standards and using deprecated calls.
+
+It also includes [gin theme](https://www.drupal.org/project/gin) and
+[admin_toolbar](https://www.drupal.org/project/admin_toolbar) and
+[config_split](https://www.drupal.org/project/config_split) contrib modules.
+
+If using Composer 2 then remove [zaporylie/composer-drupal-optimizations](https://github.com/zaporylie/composer-drupal-optimizations)
+
+`composer remove zaporylie/composer-drupal-optimizations`
+
 ## Usage
 
 First you need to [install Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
